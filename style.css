@@ -1,0 +1,263 @@
+
+/* ===========================
+   ESTILO GERAL
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+
+    background:#f4f6f9;
+
+    color:#333;
+
+}
+
+/* ===========================
+   CONTAINER
+=========================== */
+
+.container{
+
+    width:90%;
+
+    max-width:1100px;
+
+    margin:40px auto;
+
+    background:#ffffff;
+
+    padding:30px;
+
+    border-radius:10px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+}
+
+/* ===========================
+   TÍTULO
+=========================== */
+
+h1{
+
+    text-align:center;
+
+    color:#7B1E1E;
+
+    margin-bottom:30px;
+
+    font-size:30px;
+
+}
+
+h2{
+
+    margin-top:20px;
+
+    margin-bottom:15px;
+
+    color:#333;
+
+}
+
+/* ===========================
+   FORMULÁRIO
+=========================== */
+
+.campo{
+
+    margin-bottom:18px;
+
+}
+
+label{
+
+    display:block;
+
+    font-weight:bold;
+
+    margin-bottom:6px;
+
+}
+
+input{
+
+    width:100%;
+
+    padding:12px;
+
+    border:1px solid #ccc;
+
+    border-radius:6px;
+
+    font-size:16px;
+
+}
+
+input:focus{
+
+    border-color:#7B1E1E;
+
+    outline:none;
+
+}
+
+/* ===========================
+   BOTÕES
+=========================== */
+
+button{
+
+    cursor:pointer;
+
+    border:none;
+
+    border-radius:6px;
+
+    font-size:16px;
+
+    transition:.3s;
+
+}
+
+.salvar{
+
+    background:#7B1E1E;
+
+    color:white;
+
+    padding:14px 25px;
+
+    width:100%;
+
+    margin-top:10px;
+
+}
+
+.salvar:hover{
+
+    background:#5d1616;
+
+}
+
+.botoes{
+
+    margin-top:25px;
+
+    text-align:center;
+
+}
+
+.csv{
+
+    background:#198754;
+
+    color:white;
+
+    padding:14px 30px;
+
+}
+
+.csv:hover{
+
+    background:#146c43;
+
+}
+
+/* ===========================
+   TABELA
+=========================== */
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:20px;
+
+}
+
+thead{
+
+    background:#7B1E1E;
+
+    color:white;
+
+}
+
+th{
+
+    padding:14px;
+
+}
+
+td{
+
+    padding:12px;
+
+    text-align:center;
+
+    border-bottom:1px solid #ddd;
+
+}
+
+tbody tr:nth-child(even){
+
+    background:#f7f7f7;
+
+}
+
+tbody tr:hover{
+
+    background:#ececec;
+
+}
+
+/* ===========================
+   LINHA SEPARADORA
+=========================== */
+
+hr{
+
+    margin:35px 0;
+
+    border:1px solid #ddd;
+
+}
+
+/* ===========================
+   RESPONSIVIDADE
+=========================== */
+
+@media(max-width:768px){
+
+table{
+
+    display:block;
+
+    overflow-x:auto;
+
+}
+
+h1{
+
+    font-size:22px;
+
+}
+
+.container{
+
+    width:95%;
+
+    padding:20px;
+
+}
+
+}
